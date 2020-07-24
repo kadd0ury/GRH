@@ -6,7 +6,7 @@
 <html">
 <head>
 <meta charset="ISO-8859-1">
-<title>index</title>
+<title>Error</title>
 <link href="<c:url value="/resources/css/bootstrap.min.css" />"
  rel="stylesheet">
 <script src="<c:url value="/resources/js/jquery-1.11.1.min.js" />"></script>
@@ -16,9 +16,9 @@
 
    <jsp:directive.include file="../layout/navbar.jsp" />
   
-<div class="container">
-  <h3>HRMS -  Welcome to the Human Resource Management Space</h3>
-  <p>Manage your entities</p>
+<div class="container" style="text-align: center;position: relative;top:150px;">
+  <h3 style="color: red;">HTTP 403 Error</h3>
+  <p style="color: red;">Unauthorized Access</p>
 </div>
 
 
